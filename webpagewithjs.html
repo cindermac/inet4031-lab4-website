@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<title>Makayla's Web Page</title>
+	<style>
+	body {
+		background-color: #FADADD;
+		font-family: "Georgia", "Times New Roman", serif;
+		padding: 20px;
+	}
+	h2 {
+		color: #4B0082;
+	}
+	p {
+		font-size: 16px;
+	}
+	button {
+		margin: 5px;
+		padding: 10px;
+		font-size: 14px;
+		cursor: pointer;
+	}
+	</style>
+</head>
 <body>
 
-<h2>Simple Web Page with HTML and JavaScript</h2>
+<h2>Makayla's Web Page</h2>
 
-<p>JavaScript can change HTML attribute values.</p>
-
-<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
-
+<p>I am so excited for Halloween. I just went shopping today with my friend, and we found some good stuff for my costume. I am dressing up as Arthur Morgan!</p>
 <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
 
 <img id="myImage" src="pic_bulboff.gif" style="width:100px">
